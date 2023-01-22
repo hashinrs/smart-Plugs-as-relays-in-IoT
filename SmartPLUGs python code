@@ -1,0 +1,10 @@
+sys.path.insert(1, '/usr/local/lib/python3.9/dist-packages') #for importing the code to current environment
+from PyP100 import PyP100 #pip install PyP100
+log_string = "ID: {id}: ON".format(id=output_id)
+self.logger.info(log_string)
+p100 = PyP100.P100("smart plug ip address", "tplink user id", "password") #Creating a P100 plug add ip address from tplink app
+object
+p100.handshake() #Creates the cookies required for further methods
+p100.login() #Sends credentials to the plug and creates AES Key and IV for further methods
+p100.turnOn() #Sends the turn on request remove this line to create off code
+p100.turnOff()  #Sends the turn off request remove this line to create on code
