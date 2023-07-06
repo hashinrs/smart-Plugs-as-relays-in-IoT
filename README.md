@@ -1,4 +1,4 @@
-# smart-Plugs-as-relays-in-IoT
+# Smart-Plugs-as-relays-in-IoT project
 Runs on PyP100 library please install it using 
 ```shell script
 pip install PyP100
